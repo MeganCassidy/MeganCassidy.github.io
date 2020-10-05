@@ -1,0 +1,32 @@
+body{
+    background: black;
+    color: white;
+}
+
+.top-section {
+    display: grid;
+    display: flex;
+    max-height: 300px;
+}
+
+.name-title{
+    width: 50vw;
+    text-align: center;
+}
+
+.name-title h1 {
+    font-size: 60px;
+}
+
+.name-title h4 {
+    font-size: 40px;
+}
+
+.img-block{
+    width: 50vw;
+    height: 300px;
+}
+.img-block img{
+    height: 100vh;
+}
+
