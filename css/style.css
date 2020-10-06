@@ -20,7 +20,7 @@ body{
     margin-top: 2em;
     font-size: 65px;
     font-weight: lighter;
-    font-family: "Bookman Old Style";
+    font-family: "Bookman Old Style", Arial, Helvetica, Tahoma, Calibri, Verdana, sans-serif;
     
 }
 
@@ -29,7 +29,7 @@ body{
     font-size: 40px;
     color: white;
     font-weight: 300;
-    font-family: Calibri;
+    font-family: Calibri, Arial, Helvetica, Tahoma, Verdana, sans-serif;
 }
 
 .img-block{
