@@ -1,8 +1,8 @@
 body{
     background: black;
-    color: white;
-    font-family: Calibri;
-    letter-spacing: 2.5px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    
 }
 
 .top-section {
@@ -13,16 +13,23 @@ body{
 
 .name-title{
     width: 50vw;
-    text-align: center;
+    margin-left: 3em;
 }
 
 .name-title h1 {
     margin-top: 2em;
-    font-size: 60px;
+    font-size: 65px;
+    font-weight: lighter;
+    font-family: "Bookman Old Style";
+    
 }
 
 .name-title h4 {
+    margin-top: -0.5em;
     font-size: 40px;
+    color: white;
+    font-weight: 300;
+    font-family: Calibri;
 }
 
 .img-block{
@@ -53,12 +60,30 @@ body{
     transform: rotate(150deg);
     margin-left: -1.2em;
     background: rgb(2,0,36);
-    background: linear-gradient(219deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(219deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 40%, rgba(0,212,255,1) 100%);
 }
 
 .three{
     margin-left: 4.5em;
     margin-right: 7em;
     background: rgb(2,0,36);
-    background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 40%, rgba(0,212,255,1) 100%);
 }
+
+
+span{
+    display: inline-block;
+    opacity: 0;
+    transition: all 0.6s ease-in; /* how we want the animation to work, all elements, 0.6Seconds, ease in*/ 
+    transform: translateX(50px);
+    transform: scale(1.5);
+}
+
+span.fade{
+    opacity: 1;
+    transform: translateX(0px);
+    /*color: rgb(68, 191, 240);*/
+    transform: scale(1);
+}
+
+
