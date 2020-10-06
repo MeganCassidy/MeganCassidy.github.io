@@ -32,6 +32,12 @@ body{
     font-family: Calibri, Arial, Helvetica, Tahoma, Verdana, sans-serif;
 }
 
+@media (max-width: 500px){
+    .name-title h4 {
+        font-size: 20px;
+    }
+}
+
 .img-block{
     width: 50vw;
     height: 300px;
