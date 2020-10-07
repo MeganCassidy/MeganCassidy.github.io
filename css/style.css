@@ -2,10 +2,12 @@ body{
     background: black;
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
+    font-family: Calibri, Arial, Helvetica, Tahoma, Verdana, sans-serif;
     
 }
 
 .top-section {
+    padding-top: 5em;
     display: grid;
     display: flex;
     max-height: 300px;
@@ -54,17 +56,16 @@ body{
     
 }
 .one{
-    width: 300px;
-    height: 100px;
-    margin-top: 16.5em;
+    width: 330px;
+    height: 80px;
+    margin-top: 17em;
     background: rgb(2,0,36);
     background: linear-gradient(336deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 100%);
 }
 
 .two{
-    margin-left: 2em;
     transform: rotate(150deg);
-    margin-left: -1.2em;
+    margin-left: -1.4em;
     background: rgb(2,0,36);
     background: linear-gradient(219deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 40%, rgba(0,212,255,1) 100%);
 }
@@ -98,3 +99,38 @@ span.fade{
     margin-top: 200px;
 }
 
+.projects{
+    display: grid;
+}
+
+.project-one{
+    margin-top: 15em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-left: 10%;
+}
+
+.desktop {
+    width: 17em;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.mobile{
+    width: 20%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.project-two {
+    margin-top: 15em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.project-three{
+    margin-top: 5em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-left: 10%;
+}
