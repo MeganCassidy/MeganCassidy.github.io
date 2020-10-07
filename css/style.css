@@ -94,10 +94,14 @@ span.fade{
 }
 
 .background-img{
-    height: 170px;
+    height: 180px;
     width: 100%;
-    margin-top: 200px;
+    margin-top: 100px;
+    opacity: 0.5;
 }
+
+
+
 
 .projects{
     display: grid;
@@ -111,14 +115,18 @@ span.fade{
 }
 
 .desktop {
-    width: 17em;
-    height: 200px;
+    width: 20em;
+    height: 240px;
     border-radius: 10px;
 }
 
+.desktop:hover{
+    scale: 1.05;
+} 
+
 .mobile{
-    width: 20%;
-    height: 200px;
+    width: 9em;
+    height: 220px;
     border-radius: 10px;
 }
 
@@ -133,4 +141,13 @@ span.fade{
     grid-column-start: 1;
     grid-column-end: 2;
     padding-left: 10%;
+}
+
+button {
+    color: white;
+    background: rgba(128, 128, 128, 0.425);
+    border: none;
+    width: 8em;
+    height: 2.5em;
+    border-radius: 10px;
 }
