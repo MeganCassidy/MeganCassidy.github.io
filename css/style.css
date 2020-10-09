@@ -103,6 +103,7 @@ span.fade{
 
 .projects{
     display: grid;
+    padding-bottom: 3em;
 }
 
 .project-one{
@@ -119,7 +120,7 @@ span.fade{
 }
 
 .desktop:hover{
-    scale: 1.05;
+    -webkit-transform:scale(1.05);
 } 
 
 .mobile{
@@ -152,11 +153,12 @@ button {
 }
 
 button:hover{
-    scale: 1.05;
+    -webkit-transform:scale(1.05);
 }
 
 a:link{
     text-decoration: none;
+    color: white;
 }
 
 a:visited{
@@ -201,7 +203,52 @@ a:visited{
      margin-top: 10px;
  }
 
+ .skill-title{
+     text-align: center;
+     padding-top: 1em;
+ }
 
+ .skills{
+     display: flex;
+     margin: auto;
+     justify-content: center;
+     padding-left: 2em;
+     padding-top: 1em;
+     padding-bottom: 2em;
+ }
+
+ li{
+     line-height: 2em;
+ }
+
+hr{
+    width: 90%;
+}
+
+.left-list{
+    padding-right: 3em;
+}
+
+.right-list{
+    margin-right: -2em;
+}
+.contact{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.email{
+    font-size: 28px;
+    color: white;
+}
+
+.email:link{
+    color: white;
+}
+
+.email:hover{
+    text-decoration: underline;
+}
 
 
 
@@ -209,4 +256,14 @@ a:visited{
      font-size: 10px;
      height: 20%;
      color:darkgray;
+     display: flex;
+     margin-top: 6em;
  }
+
+ .left-footer{
+     margin-left: 10%;
+ }
+
+.right-footer{
+    margin-left: 40%;
+}
