@@ -14,7 +14,7 @@
                 <h1>Megan Cassidy</h1>
                 <h4 class="heading">&lt&gtWeb Developer&lt/&gt</h4>
             </div>
-            
+<!--Header logo blocks-->        
             <div class="block one"></div>
 
             <div class="block two"></div>
@@ -23,42 +23,78 @@
         </div>
     </header>
 
+<!-- Main section for projects-->
     <main>
 
         <div class="projects">
             <div class="project-one">
                 <a href="https://coffeehouse-megancassidy.netlify.app/" target="_blank">
-                    <img class="desktop" src="img/coffeehouse-desktop.png" alt="">
-                </a>
-                <img class="mobile" src="img/coffeehouse-mobile.png" alt="">
+                    <img class="desktop" id="coffee" src="img/coffeehouse-desktop.png" alt=""></a>
+
+                    <div class="infoDiv1">
+                        <div class="logos">
+                            <img class="logo" src="img/html5.png" alt="">
+                            <img class="logo" src="img/iconfinder_js_282802.png" alt="">
+                            <img class="logo" src="img/css-3.png" alt="">
+                            <img class="logo" src="img/iconfinder_github_1379461.png" alt="">
+                            <img class="logo" src="img/icons8-bootstrap-48.png" alt="">
+                        </div>
+                        <p>A simple, static website for a small Coffee Shop. Fully responsive using CSS Grid and Bootstrap. To create the page I used HTML5, CSS and Javascript. Git version conrol and Github for a remote repository.</p>
+                        <button class="close1">Close</button>
+                    </div>
+                    <img class="mobile" id="coffeeMob" src="img/coffeehouse-mobile.png" alt="">
+                
                 <a href="https://coffeehouse-megancassidy.netlify.app/" target="_blank"><h3 class="project-title">The Coffee House</h3></a>
                 <p>Front-end Project</p>
-                <button type="submit" class="info" id="myBtn">Project info</button>
+                <button type="submit" class="info1">Project info</button>
                 <button type="submit" class="code"><a href="https://github.com/MeganCassidy/Coffee-House.git" target="_blank">Source code</a></button>
             </div>
 
 
             <div class="project-two">
                 <a href="https://travel-bug-project.herokuapp.com/" target="_blank">
-                    <img class="desktop" src="img/travelbug-desktop.png" alt="">
+                    <img class="desktop" id="travel" src="img/travelbug-desktop.png" alt="">
                 </a>
-                <img class="mobile" src="img/travelbug-mobile.png" alt="">
+                <div class="infoDiv2">
+                    <div class="logos">
+                        <img class="logo" src="img/html5.png" alt="">
+                        <img class="logo" src="img/iconfinder_js_282802.png" alt="">
+                        <img class="logo" src="img/icons8-nodejs-32.png" alt="">
+                        <img class="logo" src="img/css-3.png" alt="">
+                        <img class="logo" src="img/iconfinder_github_1379461.png" alt="">
+                        <img class="logo" src="img/mongodb.png" alt="">
+                    </div>
+                    <p>A full stack project for a travel company. Using Node.JS and Mongo DB for the backend. HTML5, CSS3 and Javascript on the front-end. The admin section allows users to add and amend information along with reciving callback requests and contact form information from customers.</p>
+                    <button class="close2">Close</button>
+                </div>
+
+                <img class="mobile" id="travelMob" src="img/travelbug-mobile.png" alt="">
                 <a href="https://travel-bug-project.herokuapp.com/" target="_blank"><h3 class="project-title">Travel Bug</h3></a>
                 <p>Full-stack Project</p>
-                <button type="submit" class="info" id="myBtn">Project info</button>
+                <button type="submit" class="info2">Project info</button>
                 <button type="submit" class="code"><a href="https://github.com/MeganCassidy/Travel-Site.git" target="_blank"> Source code</a></button>
             </div>
 
  
             <div class="project-three">
                 <a href="https://paulwalsh-services.netlify.com" target="_blank">
-                    <img class="desktop" src="img/paulwalsh-desktop.png" alt="">
+                    <img class="desktop" id="pwServices" src="img/paulwalsh-desktop.png" alt="">
                 </a>
                 
-                <img class="mobile" src="img/paulwalsh-mobile.png" alt="">
+                <div class="infoDiv3">
+                    <div class="logos">
+                        <img class="logo" src="img/html5.png" alt="">
+                        <img class="logo" src="img/iconfinder_js_282802.png" alt="">
+                        <img class="logo" src="img/css-3.png" alt="">
+                        <img class="logo" src="img/iconfinder_github_1379461.png" alt="">
+                    </div>
+                    <p>A fully responsive, with CSS Grid, static website for a small local company. HTML5, CSS3 and Javascript have been used to build the site. Git version conrol and Github for a remote repository.</p>
+                    <button class="close3">Close</button>
+                </div>
+                <img class="mobile" id="pwServicesMob" src="img/paulwalsh-mobile.png" alt="">
                 <a href="https://paulwalsh-services.netlify.com" target="_blank"><h3 class="project-title">Paul Walsh Services</h3></a>
                 <p>Front-end Project</p>
-                <button type="submit" class="info" id="myBtn">Project info</button>
+                <button type="submit" class="info3">Project info</button>
                 <button type="submit" class="code"><a href="https://github.com/MeganCassidy/paulwalsh-services.git" target="_blank"> Source code</a></button>
             </div>
         </div>
@@ -69,8 +105,12 @@
         
 
     </main>
+    <footer>
+        <p>"Icon made by Freepik perfect from www.flaticon.com"</p>
+        <p>"Icon made by Pixel perfect perfect from www.flaticon.com"</p>
+    </footer>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

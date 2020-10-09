@@ -167,4 +167,46 @@ a:visited{
     text-decoration: underline;
 }
 
- 
+ .infoDiv1,
+ .infoDiv2,
+ .infoDiv3{
+    width: 23em;
+    height: 260px;
+    border-radius: 10px;
+    background: rgba(169, 169, 169, 0.603);
+    display: none;
+    text-align: center;
+ }
+
+ .mobile{
+     position: relative;
+ }
+
+ .close1{
+     border: 1px solid white;
+     margin-top: 5%;
+ }
+
+ .close2{
+    border: 1px solid white;
+ }
+
+ .close3{
+    border: 1px solid white;
+ }
+
+
+ .logo{
+     width: 7%;
+     margin-top: 10px;
+ }
+
+
+
+
+
+ footer{
+     font-size: 10px;
+     height: 20%;
+     color:darkgray;
+ }
