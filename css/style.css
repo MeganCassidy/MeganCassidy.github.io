@@ -6,6 +6,7 @@ body{
     
 }
 
+
 .top-section {
     padding-top: 5em;
     display: grid;
@@ -18,7 +19,7 @@ body{
     margin-left: 3em;
 }
 
-.name-title h1 {
+#name {
     margin-top: 2em;
     font-size: 65px;
     font-weight: lighter;
@@ -34,11 +35,6 @@ body{
     font-family: Calibri, Arial, Helvetica, Tahoma, Verdana, sans-serif;
 }
 
-@media (max-width: 700px){
-    .name-title h4 {
-        font-size: 20px;
-    }
-}
 
 .img-block{
     width: 50vw;
@@ -81,7 +77,7 @@ body{
 span{
     display: inline-block;
     opacity: 0;
-    transition: all 0.6s ease-in; /* how we want the animation to work, all elements, 0.6Seconds, ease in*/ 
+    transition: all 0.6s ease-in; 
     transform: translateX(50px);
     transform: scale(1.5);
 }
@@ -89,7 +85,6 @@ span{
 span.fade{
     opacity: 1;
     transform: translateX(0px);
-    /*color: rgb(68, 191, 240);*/
     transform: scale(1);
 }
 
@@ -121,6 +116,7 @@ span.fade{
 
 .desktop:hover{
     -webkit-transform:scale(1.05);
+    transform: scale(1.05);
 } 
 
 .mobile{
@@ -154,6 +150,7 @@ button {
 
 button:hover{
     -webkit-transform:scale(1.05);
+    transform: scale(1.05);
 }
 
 a:link{
@@ -219,6 +216,11 @@ a:visited{
 
  li{
      line-height: 2em;
+     list-style: none;
+ }
+
+ li:hover{
+     color: darkgray;
  }
 
 hr{
@@ -267,3 +269,39 @@ hr{
 .right-footer{
     margin-left: 40%;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .projects{
+        display: block;
+    }
+
+    #name{
+        font-size: 50px;
+    }
+
+    #heading{
+        font-size: 20px;
+    }
+
+    .block{
+        display: none;
+    }
+
+    .project-two{
+        padding-left: 10%;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    footer{
+        display: block;
+    }
+
+    .right-footer{
+        margin-left: 10%;
+    }
+}
+
