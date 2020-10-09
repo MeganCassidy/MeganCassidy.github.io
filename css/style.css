@@ -20,7 +20,7 @@ body{
 }
 
 #name {
-    margin-top: 2em;
+    margin-top: 1.5em;
     font-size: 65px;
     font-weight: lighter;
     font-family: "Bookman Old Style", Arial, Helvetica, Tahoma, Calibri, Verdana, sans-serif;
@@ -138,6 +138,12 @@ span.fade{
     padding-left: 10%;
 }
 
+.project-four{
+    margin-top: 5em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
 button {
     color: white;
     background: rgba(128, 128, 128, 0.425);
@@ -168,13 +174,19 @@ a:visited{
 
  .infoDiv1,
  .infoDiv2,
- .infoDiv3{
+ .infoDiv3,
+ .infoDiv4{
     width: 23em;
     height: 260px;
     border-radius: 10px;
     background: rgba(169, 169, 169, 0.603);
     display: none;
     text-align: center;
+ }
+
+ #portfolio,
+ #portfolioMob{
+     border: 1px solid #404040;
  }
 
  .mobile{
@@ -282,7 +294,7 @@ hr{
     }
 
     #heading{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .project-one{

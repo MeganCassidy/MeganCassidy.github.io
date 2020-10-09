@@ -74,7 +74,22 @@ $(document).ready(function(){
     });
   });
 
-  
+    //info button Portfolio 
+
+$(document).ready(function(){
+    $(".info4").click(function(){
+      $(".infoDiv4").show();
+      $("#portfolio").hide();
+      $("#portfolioMob").hide();
+    });
+    $(".close4").click(function(){
+      $(".infoDiv4").hide();
+      $("#portfolio").show();
+      $("#portfolioMob").show();
+    });
+  });
+
+
   
   
 
