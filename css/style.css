@@ -12,16 +12,17 @@ body{
     display: grid;
     display: flex;
     max-height: 300px;
+    margin-right: 4em;
 }
 
 .name-title{
-    width: 50vw;
-    margin-left: 3em;
+    width: 55vw;
+    margin-left: 6em;
 }
 
 #name {
     margin-top: 1.5em;
-    font-size: 65px;
+    font-size: 61px;
     font-weight: lighter;
     font-family: "Bookman Old Style", Arial, Helvetica, Tahoma, Calibri, Verdana, sans-serif;
     
@@ -29,7 +30,7 @@ body{
 
 .name-title h4 {
     margin-top: -0.5em;
-    font-size: 40px;
+    font-size: 36px;
     color: rgba(255, 255, 255, 0.678);
     font-weight: 300;
     font-family: Calibri, Arial, Helvetica, Tahoma, Verdana, sans-serif;
@@ -46,20 +47,22 @@ body{
 
 .block {
     margin-top: 4em;
-    width: 100px;
+    
     height: 300px;
     border-radius: 10px;
     
 }
 .one{
-    width: 330px;
+    width: 35%;
     height: 80px;
+    margin-right: -6px;
     margin-top: 17em;
     background: rgb(2,0,36);
     background: linear-gradient(336deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 100%);
 }
 
 .two{
+    width: 11%;
     transform: rotate(150deg);
     margin-left: -1.4em;
     background: rgb(2,0,36);
@@ -67,10 +70,12 @@ body{
 }
 
 .three{
+    width: 11%;
     margin-left: 4.5em;
     margin-right: 7em;
     background: rgb(2,0,36);
     background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 40%, rgba(0,212,255,1) 100%);
+
 }
 
 
@@ -265,7 +270,6 @@ hr{
 }
 
 
-
  footer{
      font-size: 10px;
      height: 20%;
@@ -314,6 +318,10 @@ hr{
     }
 
     .project-two{
+        padding-left: 10%;
+    }
+
+    .project-four{
         padding-left: 10%;
     }
 
