@@ -12,7 +12,7 @@ body{
     display: grid;
     display: flex;
     max-height: 300px;
-    margin-right: 4em;
+    margin-right: 3em;
 }
 
 .name-title{
@@ -53,8 +53,8 @@ body{
     
 }
 .one{
-    width: 35%;
-    height: 80px;
+    width: 36%;
+    height: 82px;
     margin-right: -6px;
     margin-top: 17em;
     background: rgb(2,0,36);
