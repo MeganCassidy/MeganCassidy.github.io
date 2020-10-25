@@ -90,6 +90,22 @@ $(document).ready(function(){
   });
 
 
+     //info button Overland Life
+
+$(document).ready(function(){
+  $(".info5").click(function(){
+    $(".infoDiv5").show();
+    $("#overlandLife").hide();
+  
+  });
+  $(".close5").click(function(){
+    $(".infoDiv5").hide();
+    $("#overlandLife").show();
+    
+  });
+});
+
+
   
   
 

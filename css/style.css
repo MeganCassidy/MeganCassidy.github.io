@@ -149,6 +149,13 @@ span.fade{
     grid-column-end: 3;
 }
 
+.project-five{
+    margin-top: 5em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-left: 10%;
+}
+
 button {
     color: white;
     background: rgba(128, 128, 128, 0.425);
@@ -180,7 +187,8 @@ a:visited{
  .infoDiv1,
  .infoDiv2,
  .infoDiv3,
- .infoDiv4{
+ .infoDiv4,
+ .infoDiv5{
     width: 23em;
     height: 260px;
     border-radius: 10px;
@@ -208,6 +216,14 @@ a:visited{
  }
 
  .close3{
+    border: 1px solid white;
+ }
+
+ .close4{
+    border: 1px solid white;
+ }
+
+ .close5{
     border: 1px solid white;
  }
 
@@ -322,6 +338,10 @@ hr{
     }
 
     .project-four{
+        padding-left: 10%;
+    }
+
+    .project-five{
         padding-left: 10%;
     }
 
