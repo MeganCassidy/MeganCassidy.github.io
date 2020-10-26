@@ -103,6 +103,20 @@ $(document).ready(function(){
   });
 });
 
+window.onscroll = function() {navFunct()};
+
+let skills = document.querySelector('#top-hr');
+let sticky = skills.offsetTop - 75;
+
+function navFunct() {
+  if(window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+    navbar.classList.remove("not-fixed")
+  } else {
+    navbar.classList.add("not-fixed")
+    navbar.classList.remove("sticky");
+  }
+}
 
   
   
